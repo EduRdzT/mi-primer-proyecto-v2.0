@@ -46,8 +46,8 @@
     <div class="container mt-sm-5 mt-4">
         <div class="row">
             <div class="col-lg-12 mt-5">
-                <section class="seccion fondo text-light"> 
-                    <form action="recive.php" method="post">
+                <section class="seccion fondo mt-3 text-light"> 
+                    <form>
                         <strong>Nombre</strong>
                         <div class="d-flex justify-content-center mt-1">
                             
@@ -55,7 +55,7 @@
                                 <option> Selecciona un nombre --- </option>
                                 <option>john</option>
                             </select>
-                            <!--<center>
+                            <!--
                             <?PHP
                                 $link = mysqli_connect("localhost","root","");
                                 mysqli_select_db($link,"registros");
@@ -69,11 +69,10 @@
                                 mysqli_free_result($nom);
                                 mysqli_close($link);
                             ?>
-                            </center>-->
+                            -->
                         </div>
                         <strong>Selecciona un partido político: </strong> 
-                        <center>
-                            <table>
+                            <table class="d-flex justify-content-center">
                                 <tr>  
                                     <td class="cc-selector">
                                         <INPUT id="PRI" TYPE="radio" NAME="partido" VALUE="PRI" required>
@@ -95,7 +94,6 @@
                                     </td>
                                 </tr>
                             </table>
-                        </center>
                         <div class="boton">
                             <INPUT TYPE="submit" NAME="enviar" VALUE=" Enviar datos">
                         </div>
