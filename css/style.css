@@ -465,7 +465,10 @@ Formulario
   bottom: 5px;
   left: 0;
   transition: all 0.3s ease;
+  font-weight: 500;
+  font-size: 13px;
   color: #fff;
+  text-transform: uppercase;
   /*background: none;*/}
 .form input:valid + .estilo .text-estilo,.form input:focus + .estilo .text-estilo{
   transform: translateY(-150%);
