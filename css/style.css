@@ -402,6 +402,13 @@ Menu
 Formulario
 --------------------------------------------- 
 */
+/*input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active  {
+    /*-webkit-box-shadow: 0 0 0px 45px #00b4c6 inset !important;*/
+    /*transition: background-color 9000s ease-in-out 0s;}
+input:-webkit-autofill {-webkit-text-fill-color: #fff;}*/
 .seccion form{
   width: 80%;
   height: 90%;
@@ -652,4 +659,39 @@ Contacto
     border-radius: 0px;
     box-shadow: none;}
   
+}
+/* 
+---------------------------------------------
+Reporte
+--------------------------------------------- 
+*/
+.section_1{
+  width: 370px;
+  height: 200px;
+  margin: auto;
+  padding: 20px;
+  overflow: auto;
+  border-radius: 8px;
+  box-shadow: 7px 13px 37px #000;
+}
+.section_1::-webkit-scrollbar{
+  width: 7px;
+  background: none;
+}
+.section_1::-webkit-scrollbar-thumb{
+  background: #FFFFFF;
+  border-radius: 5px;
+  border-right: 2px;
+}
+.espacio {
+  width: 80%;
+  color:#FFFFFF;
+  height: 50px;
+}
+@media (max-width: 575px) {
+  .section_1{
+    width: 100%;
+    margin: 0;
+    border-radius: 0px;
+    box-shadow: none;}
 }
