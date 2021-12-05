@@ -699,3 +699,15 @@ Reporte
     border-radius: 0px;
     box-shadow: none;}
 }
+.img-p{
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 7px 13px 37px #000;
+}
+@media (max-width: 575px) {
+  .img-p{
+    width: 100%;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: none;}
+}
